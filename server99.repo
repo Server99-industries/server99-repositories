@@ -1,0 +1,8 @@
+[Server99]
+name=Copr repo for Server99
+baseurl=https://copr-be.cloud.fedoraproject.org/results/core-i99/Server99/fedora-$releasever-$basearch/
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://copr-be.cloud.fedoraproject.org/results/core-i99/Server99/pubkey.gpg
+enabled=1
+priority=50
